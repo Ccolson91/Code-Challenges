@@ -1,4 +1,4 @@
 function perfectSquare(sq){
   return Math.sqrt(sq)%1===0 ? Math.pow(Math.sqrt(sq)+1,2) : -1
 }
-console.log(perfectSquare(289))
+console.log(perfectSquare(9))
